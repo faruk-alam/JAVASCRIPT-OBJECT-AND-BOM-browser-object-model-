@@ -1,0 +1,62 @@
+JavaScript Array
+JavaScript array is an object that represents a collection of similar type or different 
+type of elements.Basically,Arrays are complex variables that allow us to store more than 
+one value or a group of values under a single variable name. JavaScript arrays can store 
+any valid value, including strings, numbers, objects, functions, and even other arrays, 
+thus making it possible to create more complex data structures such as an array of objects 
+or an array of arrays.
+
+Let's suppose you want to store the name of colors in your JavaScript code. Storing the 
+color names one by one in a variable could look something like this:
+
+Example
+var color1 = "Red";
+var color2 = "Green";
+var color3 = "Blue";
+
+But what happens if you need to store the state or city names of a country in variables and
+this time this not just three may be hundred. It is quite hard and boring to store each of 
+them in a separate variable. Also, using so many variables simultaneously and keeping 
+track of them all will be a very difficult task. And here array comes into play. Arrays 
+solve this problem by providing an ordered structure for storing multiple values or a 
+group of values.
+
+Creating an Array:
+There are 3 ways to construct array in JavaScript:
+
+1) JavaScript array literal
+2) JavaScript Array directly (new keyword)
+3) JavaScript array constructor (new keyword)
+
+1) JavaScript array literal:
+The easiest way to create an array is by using an array literal [].To create an array in 
+JavaScript is enclosing a comma-separated list of values in square brackets ([]), as shown 
+in the following syntax:
+
+var myArray = [element0, element1, ..., elementN];
+
+2) JavaScript Array directly (new keyword)
+The syntax of creating array directly is given below:
+
+  var cities = new myfavcities();
+
+Here, new keyword is used to create instance of array.
+An array is an ordered collection of values. Each value in an array is called an element, 
+and each element has a numeric position in an array, known as its index.
+
+var cities = new Array();
+cities[0] = "New york"
+cities[1] = "London"
+cities[2] = "Amsterdam"
+cities[3] = "Berlin"
+
+3) JavaScript array constructor (new keyword)
+
+Here, you need to create instance of array by passing arguments in constructor so that we 
+don't have to provide value explicitly.
+
+var ages = new Array(43,78,54,30);
+
+
+
+
