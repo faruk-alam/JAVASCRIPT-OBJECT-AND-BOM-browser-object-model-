@@ -1,0 +1,8 @@
+Accessing the Elements of an Array:
+
+Array elements can be accessed by their index using the square bracket notation. An index 
+is a number that represents an element's position in an array.
+Array indexes are zero-based. This means that the first item of an array is stored at 
+index 0, not 1, the second item is stored at index 1, and so on. Array indexes start at 0 
+and go up to the number of elements minus 1. So, array of five elements would have indexes 
+from 0 to 4.
