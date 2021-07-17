@@ -1,0 +1,6 @@
+Getting the Length of an Array:
+
+The length property returns the length of an array, which is the total number of elements 
+contained in the array. Array length is always greater than the index of any of its 
+element.
+You can use for loop to access each element of an array in sequential order.
