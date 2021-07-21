@@ -1,0 +1,7 @@
+Adding New Elements to an Array:
+
+To add a new element at the end of an array, simply use the push() method,
+Similarly, to add a new element at the beginning of an array use the unshift() method,
+You can also add multiple elements at once using the push() and unshift() methods.
+The JavaScript array concat() method combines two or more arrays and returns a new string. 
+This method doesn't make any change in the original array.
