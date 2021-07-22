@@ -1,0 +1,11 @@
+Removing an element from an array:
+
+To remove the last element from an array you can use the pop() method. This method returns 
+the value that was popped out. 
+Similarly, you can remove the first element from an array using the shift() method. This 
+method also returns the value that was shifted out.
+
+Tips: The push() and pop() methods runs faster than unshift() and shift(). Because push() 
+and pop() methods simply add and remove elements at the end of an array therefore the 
+elements do not move, whereas unshift() and shift() add and remove elements at the 
+beginning of the array that require re-indexing of whole array.
