@@ -1,0 +1,8 @@
+Creating a String from an Array:
+
+There may be situations where you simply want to create a string by joining the elements of
+an array. To do this you can use the join() method.This method takes an optional parameter
+which is a separator string that is added in between each element.If you omit the separator,
+then JavaScript will use comma (,) by default.
+we can also convert an array to a comma-separated string using the toString().This method 
+does not accept the separator parameter like join().
