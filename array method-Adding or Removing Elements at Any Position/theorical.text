@@ -1,0 +1,10 @@
+Adding or Removing Elements at Any Position:
+
+The splice() method is a very versatile array method that allows us to add or remove elements
+from any index, using the syntax:
+ arr.splice(startIndex, deleteCount, elem1, ..., elemN).
+
+This method takes three parameters: the first parameter is the index at which to start 
+splicing the array, it is required; the second parameter is the number of elements to 
+remove (use 0 if we don't want to remove any elements), it is optional; and the third 
+parameter is a set of replacement elements, it is also optional. 
