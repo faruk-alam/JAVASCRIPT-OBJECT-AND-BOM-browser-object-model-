@@ -1,0 +1,12 @@
+Extracting a Portion of an Array:
+
+If we want to extract out a portion of an subarray but keep the original 
+array intact you can use the slice() method. This method takes 2 parameters: start index 
+(index at which to begin extraction), and an optional end index (index before which to end 
+extraction), syntax:
+
+ arr.slice(startIndex, endIndex). 
+
+If endIndex parameter is omitted, all elements to the end of the array are extracted. You 
+can also specify negative indexes or offsets —in that case the slice() method extract the 
+elements from the end of an array, rather then the begining.
