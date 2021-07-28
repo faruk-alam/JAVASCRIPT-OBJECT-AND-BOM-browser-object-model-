@@ -1,0 +1,6 @@
+Searching Through an Array:
+
+If you want to search an array for a specific value, you can simply use the indexOf() and 
+lastIndexOf(). If the value is found, both methods return an index representing the array 
+element. If the value is not found, -1 is returned. The indexOf() method returns the first 
+one found, whereas the lastIndexOf() returns the last one found.
