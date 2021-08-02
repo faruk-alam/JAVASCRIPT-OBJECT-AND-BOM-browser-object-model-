@@ -1,0 +1,5 @@
+Reversing an Array:
+
+We can use the reverse() method to reverse the order of the elements of an array.This 
+method reverses an array in such a way that the first array element becomes the last, and 
+the last array element becomes the first.
