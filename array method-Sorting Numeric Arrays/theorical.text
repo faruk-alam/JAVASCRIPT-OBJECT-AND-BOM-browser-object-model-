@@ -1,0 +1,36 @@
+Sorting Numeric Arrays:
+
+The sort() method may produce unexpected result when it is applied on the numeric arrays 
+(i.e. arrays containing numeric values).
+Example:
+var numbers = [5, 20, 10, 75, 50, 100];
+numbers.sort(); // Sorts numbers array
+alert(numbers); // Outputs: 10,100,20,5,50,75
+As you can see, the result is different from what we've expected. It happens because, the 
+sort() method sorts the numeric array elements by converting them to strings (i.e. 20 
+becomes "20", 100 becomes "100", and so on), and since the first character of string "20" 
+(i.e. "2") comes after the first character of string "100" (i.e. "1"), that's why the 
+value 20 is sorted after the 100.
+
+To fix this sorting problem with numeric array, you can pass a compare function, like this:
+
+Example:
+var numbers = [5, 20, 10, 75, 50, 100];
+
+// Sorting an array using compare function
+numbers.sort(function(a, b) {
+    return a - b;
+});
+alert(numbers); // Outputs: 5,10,20,50,75,100
+As you can see, this time we've got the correct result. Let's see how it works.
+
+When compare function is specified, array elements are sorted according to the return 
+value of the compare function. For example, when comparing a and b:
+
+If the compare function returns a value less than 0, then a comes first.
+If the compare function returns a value greater than 0, then b comes first.
+If the compare function returns 0, a and b remain unchanged with respect to each other, 
+but sorted with respect to all other elements.
+Hence, since 5 - 20 = -15 which is less than 0, therefore 5 comes first, similarly 
+20 - 10 = 10 which is greater than 0, therefore 10 comes before 20, likewise 20 - 75 = -55 
+which is less than 0, so 20 comes before 75, similarly 50 comes before 75, and so on.
