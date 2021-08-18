@@ -1,0 +1,28 @@
+Object Intro:
+
+JavaScript is an object-based language.Everything is an object in JavaScript.So, to work 
+with JavaScript effectively and efficiently we need to understand how objects work as well 
+as how to create your own objects and use them.
+A javaScript object is an entity 
+having state and behavior (properties and method). For example: car, pen, bike, chair, 
+glass, keyboard, monitor etc.
+A JavaScript object is just a collection of named values. These named values are usually 
+referred to as properties of the object.As the JavaScript arrays chapter, an array is a 
+collection of values, where each value has an index (a numeric key) that starts from zero 
+and increments by one for each value. An object is similar to an array, but the difference 
+is that you define the keys yourself, such as name, age, gender, and so on.
+
+Creating Objects:
+
+An object can be created with curly brackets {} with an optional list of properties.In 
+javaScript, "key: value";pairs are called properties. For example,
+
+let person = { 
+    name: 'John',
+    age: 20
+};
+Here, name: 'John' and age: 20 are properties.where the key (or property name) is always a 
+string, and value (or property value) can be any data type, like strings, numbers, Booleans
+or complex data type like arrays, functions, and other objects. Additionally, properties 
+with functions as their values are often called methods to distinguish them from other 
+properties.
