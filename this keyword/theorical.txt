@@ -1,0 +1,3 @@
+
+To access a property of an object from within a method of the same object, you need to use the this keyword.
+In order to access the properties of an object, this keyword is used following by . and key
