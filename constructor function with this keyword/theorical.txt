@@ -1,0 +1,6 @@
+javascript constructor with this keyword:
+ constructor function is used to create objects. 
+ To create an object from a constructor function, we use the new keyword.
+
+Note: It is considered a good practice to capitalize the first letter of your constructor function
+you can create multiple objects from a constructor function. 
