@@ -1,0 +1,51 @@
+Javascript math Object:
+Using the Math Object
+The JavaScript Math object provides a number of useful properties and methods for performing mathematical 
+tasks like, generating random numbers, rounding numbers, obtaining values such as PI and performing 
+calculation, and so on. It also includes methods for performing mathematical task that are normally 
+impossible or too complex to perform using standard mathematical operators (+, -,*, and /) such as calculating
+sine oThe Math.PI Property
+
+The Math.PI property represents the ratio of the circumference of a circle to its diameter. PI (π) is a 
+mathematical constant, which is approximately 3.14159: Math.PI = π ≈ 3.14159
+
+Getting the Absolute Value
+The Math.abs() method is used to calculate the absolute (positive) value of a number. Therefore, -1 is returned 
+as 1, -5 as 5, and so on. 
+
+Calculating the Square Root of a Number
+
+The Math.sqrt() method is used to calculate the square root of a number: Math.sqrt(x) = x
+If the number is negative, NaN is returned
+
+Rounding Numbers
+The JavaScript Math object provides few methods to round numbers, each one has its own purpose. The following 
+section will describe these methods in detials.
+
+The round() Method:
+The Math.round() method rounds a number to the nearest integer in such a way that if the decimal part is .5 or 
+greater, number is rounded up, otherwise rounded down. So, 3.5 becomes 4, -5.7 becomes -6, 4.49 becomes 4, and 
+on.
+
+The ceil() Method
+The Math.ceil() method rounds a number up to the next highest integer. So, 3.5 becomes 4, -5.7 becomes -5 
+(because -5 is greater than -6).
+
+The floor() Method
+The Math.floor() method rounds a number down to the next lowest integer. So, 3.5 becomes 3, -5.7 becomes -6 
+(because -6 is lesser than -5).
+
+Generating a Random Number
+The Math.random() method is used to generate a floating-point random number in the range from 0 inclusive up 
+to but not including 1. However, if you want a random integer between zero and an integer higher than one,
+should use this method inside Math.floor().
+
+Raising Numbers to a Power
+The Math.pow() method is used to raise a number to a specified power.
+
+The expression Math.pow(x, y)—equivalent to mathmatically xy—shows how many times the base x is multiplied by 
+the exponent y.
+
+Finding the Largest and Smallest Numbers
+The Math.max() and Math.min() methods is used to find which number is the largest or smallest in a group of 
+numbers, respectively.
