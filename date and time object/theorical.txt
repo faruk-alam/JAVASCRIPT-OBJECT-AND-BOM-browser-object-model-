@@ -1,0 +1,77 @@
+Using the Date Object:
+
+The Date object is a built-in JavaScript object. It allows you to get the user's local time by accessing the 
+computer system clock through the browser. The Date object also provides several methods for managing, 
+manipulating, and formatting dates and times.
+
+Creating a Date Object:
+
+Before we start working with the date and time, we need to create a Date object. Unlike other built-in objects,
+such as arrays or functions, dates don't have a corresponding literal form: all date objects need to be 
+created using the Date constructor function which is Date().
+There are four different ways to create a Date object in JavaScript.
+
+The new Date() Syntax
+You can simply declare a new Date object without initializing its value. In this case, the date and time value 
+will be set to the current date and time on the user's device on which the script is run.
+
+The new Date(year, month, ...) Syntax
+You can also initialize a Date object by passing the following parameters separated by commas: 
+year, month, day, hours, minutes, seconds, and milliseconds.
+The year and month parameters are required other parameters are optional.
+
+The new Date(dateString) Syntax
+JavaScript also allows you to create a Date object by passing the string representing a date, or a date and 
+time.
+
+Creating the Date and Time Strings
+The JavaScript Date object provides several methods, such as toDateString(), toLocaleDateString(), etc. to 
+generate date strings in different formats.
+
+Similarly, you can use the toLocaleTimeString(), toTimeString() methods of the Date object to generate time 
+strings.
+
+Getting Specific Date and Time Components
+Once you have a proper date object, a number of methods are available to you to extract details from it, such 
+as the month, date, hours or minutes value etc. The following section describes the various methods of 
+extracting individual pieces of information from a Date object.
+The Date object provides several methods such as getFullYear(), getMonth(), getDay(), etc. that you can use to
+extract the specific date components from the Date object, such as year, day of month, day of week, etc. 
+respectively. 
+
+The getDay() method returns a number representing the day of the week (from 0 to 6) instead of returning a 
+name such as Sunday or Monday in such a way that, if it is Sunday, the method returns 0; and if it is Monday , 
+the method returns 1, and so on.
+
+Likewise, the getMonth() method returns the number of months (from 0 to 11) instead of name of the month. Here 
+0 represents the first month of the year. Therefore, if it is January the method returns 0 not 1; and if it is 
+August, the method returns 7.
+Getting the Hours, Minutes, Seconds, and Milliseconds
+Similarly, the Date object provides methods like getHours(), getMinutes(), getSeconds(), getTimezoneOffset() 
+etc. to extract the time components from the Date object.
+
+Setting the Date and Time Values
+In addition to retrieving date and time values, you can also set or modify these values using the JavaScript. 
+This is most often used in program where you have to change the value of a date object from one particular 
+date or time to another.
+
+Setting the Year, Month and Date
+The Date object provides methods such as setFullYear(), setMonth() and setDate() methods to set the year, 
+month, date components of the Date object respectively.
+For instance, in the following example we have used setFullYear() method to change the current date stored in 
+a variable ahead of two year in the future.
+Likewise, you can use the setMonth() method to set or modify the month part of a Date object.
+The setMonth() method require an integer value from 0 to 11, if you set the value of the month greater than 11, 
+the year value of the date object will increment.
+
+In other words, a value of 12 results in the year value increasing by 1, and the month value set to 0, 
+The setDate() method require an integer value from 1 to 31. Also, if you pass the values greater than the 
+number of days in the month, the month will increment.
+
+Setting the Hours, Minutes and Seconds
+Methods for setting the time values are also pretty straight forward. The setHours(), setMinutes(), 
+setSeconds(), setMilliseconds() can be used to set the hour, minutes, seconds, and milliseconds part of the 
+Date object respectively.
+
+Each method takes integer values as parameters. Hours range from 0 to 23. Minutes and seconds range from 0 to 
+59. And milliseconds range from 0 to 999. 
