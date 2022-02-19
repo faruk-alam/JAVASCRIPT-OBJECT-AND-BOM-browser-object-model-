@@ -1,0 +1,21 @@
+The Location Object
+The location property of a window (i.e. window.location) is a reference to a Location object; it represents 
+the current URL of the document being displayed in that window.
+
+Since window object is at the top of the scope chain, so properties of the window.location object can be 
+accessed without window. prefix, for example window.location.href can be written as location.href. The 
+following section will show you how to get the URL of page as well as hostname, protocol, etc. using the 
+location object property of the window object.
+
+Getting the Current Page URL
+You can use the window.location.href property to get the entire URL of the current page.
+Getting Different Part of a URL
+Similarly, you can use other properties of the location object such as protocol, hostname, port, pathname, 
+search, etc. to obtain different part of href.
+
+Loading New Documents
+You can use the assign() method of the location object i.e. window.location.assign() to load another resource from 
+a URL provided as parameter.
+You can also use the replace() method to load new document which is almost the same as assign(). The difference is 
+that it doesn't create an entry in the browser's history, meaning the user won't be able to use the back button 
+to navigate to it.
