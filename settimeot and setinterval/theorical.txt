@@ -1,0 +1,16 @@
+Dialog/pop up Boxes:
+In JavaScript you can create dialog boxes or popups to interact with the user. You can either use them to notify a 
+user or to receive some kind of user input before proceeding.
+
+Creating Alert Dialog Boxes
+An alert dialog box is the most simple dialog box. It enables you to display a short message to the user. It also 
+includes OK button, and the user has to click this OK button to continue.
+You can create alert dialog boxes with the alert() method.
+
+Creating Prompt Dialog Box
+The prompt dialog box is used to prompt the user to enter information. A prompt dialog box includes a text input 
+field, an OK and a Cancel button.
+You can create prompt dialog boxes with the prompt() method. This method returns the text entered in the input 
+field when the user clicks the OK button, and null if user clicks the Cancel button. If the user clicks OK button 
+without entering any text, an empty string is returned. For this reason, its result is usually assigned to a 
+variable when it is used.
