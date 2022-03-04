@@ -1,0 +1,17 @@
+JavaScript is a prototype-based language that facilitates the objects to acquire properties and features 
+from one another. Here, each object contains a prototype object.
+In JavaScript, whenever a function is created the prototype property is added to that function 
+automatically. This property is a prototype object that holds a constructor property.
+What is the requirement of a prototype object?
+Whenever an object is created in JavaScript, its corresponding functions are loaded into memory. So, a new 
+copy of the function is created on each object creation.
+
+In a prototype-based approach, all the objects share the same function. This ignores the requirement of 
+creating a new copy of function for each object. Thus, the functions are loaded once into the memory.
+
+Prototype Inheritance
+In JavaScript, a prototype can be used to add properties and methods to a constructor function. And objects 
+inherit properties and methods from a prototype
+
+Add Methods to a Constructor Function Using Prototype
+You can also add new methods to a constructor function using prototype
